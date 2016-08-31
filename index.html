@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4 col-xs-5 col-sm-5 col-md-5 col-lg-5">
+		<center><h1>To-Do List</h1>
+		<form onsubmit="return false">
+			<h5 class="">Enter the things you need to do separated by a comma</h5>
+			<input class="list-entry" id="list-entry" type="text" name="list-entry" placeholder="eg. Fight crime, Meet with President, Receive tokens of gratitude" data-toggle="tooltip" data-placement="bottom" title="e.g. Be awesome, Save a citizen's life, Gaze into the mirror of glory, and so on">
+
+			<button class="btn btn-success list-button" type="submit" onclick="listButton()">Generate List</button>
+		</form>
+		<br/>
+
+		<h4 class="paper-background" ><ul id="generate-list"></ul></h4></center>
+	</div>
+
+<script type="text/javascript" src="toDo.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.list-entry {
+	width: 500px;
+	height: 2em;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px;
+}
+.strike-through {
+	text-decoration: line-through;
+	opacity: .5;
+} 
+ul {
+	padding-left: 0px;
+}
+li {
+	padding: 5px 0px 5px 10px;	
+	background-color: #FFF5B4;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-right: none;
+	border-left: none;
+	list-style: none;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: left;
+	cursor: pointer;
+}
+li:hover {
+	font-size: 1.3em;
+}
+.paper-background {
+	width: 500px;
+	height: 1000px;
+}
+.list-button {
+	margin: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+}
